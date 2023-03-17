@@ -44,14 +44,41 @@ h2 {
     text-shadow: rgba(0, 0, 0, 0.514) 0.01em 0.06em 0.6em;
 }
 
-section.content,
-section.cont2 {
-    margin: 10px 100px 100px 100px;
+section.cont1,
+section.cont2,
+section.cont3 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* margin: 10px 100px 50px 150px; */
+}
+
+button {
+    width: 90px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: #ececec;
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+    transition: 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.171) 0.2em 0.2em 0.6em;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+a button {
+    color: black;
+    text-decoration: none;
 }
 
 img {
     text-align: center;
-    margin: 10px 30px 30px 50px;
+    margin: 10px;
+    /* margin: 10px 30px 30px 50px; */
     width: 250px;
 }
 
@@ -86,6 +113,10 @@ footer a {
     color: rgb(0, 0, 0);
 }
 
+.trabalho {
+    width: 250px;
+}
+
 section.imagem {
     height: 400px;
     background-size: cover;
@@ -94,13 +125,13 @@ section.imagem {
 
 section#img01 {
     width: 100%;
-    background-image: url(../imagens/img01.jpg);
+    background-image: url(../imagens/img01-baixa.jpg);
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.432);
 }
 
 section#img02 {
     width: 100%;
-    background-image: url(../imagens/img02.jpg);
+    background-image: url(../imagens/img02-baixa.jpg);
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.432);
 }
 
