@@ -70,11 +70,14 @@ section.aboutMe,
 section.jobs,
 section.cont3 {
     width: 100%;
-    min-height: 550px;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 20px;
     /* margin: 10px 100px 50px 150px; */
+}
+
+.aboutMe {
+    height: ;
 }
 
 button {
@@ -99,13 +102,17 @@ a button {
     text-decoration: none;
 }
 
-div.author {
+section.author {
     width: 800px;
     height: 500px;
     margin: auto;  
     text-align: center;
-    position: ;
 }
+
+.author p {
+    text-align: justify;
+}
+
 img {
     text-align: center;
     margin: 10px;
@@ -148,6 +155,15 @@ section#img01 {
 }
 
 section#img02 {
+    width: 100%;
+    height: 400px;
+    background-image: url(../imagens/img02-baixa.jpg);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.432);
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+section#img03 {
     width: 100%;
     background-image: url(../imagens/img02-baixa.jpg);
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.432);
