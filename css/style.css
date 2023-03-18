@@ -20,14 +20,14 @@ main {
     background-color: #EFEBE5;
 }
 
-#menu {
+/* #menu {
     position: fixed;
     width: 100%;
-}
+} */
 
 header {
-    padding: 30px;
     width: 100%;
+    padding: 30px;
     /* height: 100px; */
     background-color: #faf8f6;
     text-align: center;
@@ -38,8 +38,9 @@ header a {
     margin: 30px;
     text-decoration: none;
     color: black;
-    font-family: 'Lato', sans-serif;
-    font-size: 0.7em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
 }
 
 nav {
@@ -68,6 +69,7 @@ section {
 section.aboutMe,
 section.jobs,
 section.cont3 {
+    width: 100%;
     min-height: 550px;
     text-align: center;
     padding-top: 10px;
@@ -75,6 +77,10 @@ section.cont3 {
     flex: grid;
     align-items: center;
     /* margin: 10px 100px 50px 150px; */
+}
+
+section.aboutMe {
+    width: 100%;
 }
 
 button {
@@ -112,13 +118,43 @@ footer {
     background-color: #000000;
     color: white;
     text-align: center;
-    padding-top: 15px;
+    margin: 0 auto;
 }
 
 footer a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+
+section.imagem {
+    height: 550px;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+section.imagem h2 {
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.733) 0.01em 0.06em 0.6em;
+}
+
+section#img01 {
+    width: 100%;
+    background-image: url(../imagens/img01-baixa.jpg);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.432);
+    background-position: top center;
+}
+
+section#img02 {
+    width: 100%;
+    background-image: url(../imagens/img02-baixa.jpg);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.432);
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+section.content {
+    width: 50%;
 }
 
 .logo {
@@ -136,33 +172,11 @@ footer a {
     color: rgb(0, 0, 0);
 }
 
-.fotosPortfolio {
-    width: 250px;
-}
 
-section.imagem {
-    height: 550px;
-    background-size: cover;
-    /* background-attachment: fixed; */
-}
-
-section#img01 {
-    width: 100%;
-    background-image: url(../imagens/img01-baixa.jpg);
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.432);
-    background-position: top center;
-}
-
-section#img02 {
-    width: 100%;
-    background-image: url(../imagens/img02-baixa.jpg);
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.432);
-    background-position: top center;
-}
-
-section.content {
-    width: 50%;
-}
+.author p {
+    max-width: 80%;
+    text-align: center;
+} 
 
 .cards {
     display: grid;
@@ -192,4 +206,13 @@ section.content {
 
 .card h3 {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.fotosPortfolio {
+    width: 250px;
+}
+
+#menu {
+    position: fixed;
+    width: 100%;
 }
