@@ -43,9 +43,9 @@ header a {
     font-size: 0.8em;
 }
 
-nav {
-    /* margin: 30px; */
-}
+/* nav {
+    margin: 30px;
+} */
 
 main {
     width: 100%;
@@ -62,9 +62,9 @@ h2 {
     text-shadow: rgba(0, 0, 0, 0.514) 0.01em 0.06em 0.6em;
 }
 
-section {
-    /* background-color: #EFEBE5; */
-}
+/* section {
+    background-color: #EFEBE5;
+} */
 
 section.aboutMe,
 section.jobs,
@@ -76,9 +76,9 @@ section.cont3 {
     /* margin: 10px 100px 50px 150px; */
 }
 
-.aboutMe {
+/* .aboutMe {
     height: ;
-}
+} */
 
 button {
     width: 90px;
