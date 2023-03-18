@@ -31,7 +31,7 @@ header {
     /* height: 100px; */
     background-color: #faf8f6;
     text-align: center;
-    border-bottom: 2px solid #000000;
+    /* border-bottom: 2px solid #000000; */
 }
 
 header a {
@@ -117,7 +117,6 @@ img {
     text-align: center;
     margin: 10px;
     /* margin: 10px 30px 30px 50px; */
-    width: 250px;
 }
 
 footer {
@@ -171,21 +170,21 @@ section#img03 {
     background-attachment: fixed;
 }
 
-section.content {
+/* section.content {
     width: 50%;
-}
+} */
 
 .logo {
     display: inline-block;
     font-family: 'Cedarville Cursive', cursive;
-    font-size: 16px;
+    font-size: 20px;
     color: #9b5e18;
 }
 
 .logo2 {
     display: inline-block;
     font-family: 'Cedarville Cursive', cursive;
-    font-size: 0.8em;
+    font-size: 1.5em;
     font-weight: bold;
     color: rgb(0, 0, 0);
 }
@@ -227,7 +226,7 @@ section.content {
 }
 
 .fotosPortfolio {
-    width: 250px;
+    width: 200px;
 }
 
 #menu {
