@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 
 * {
@@ -69,15 +67,15 @@ h2 {
 section.aboutMe,
 section.jobs,
 section.cont3 {
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
     padding-top: 10px;
     padding-bottom: 20px;
     /* margin: 10px 100px 50px 150px; */
 }
 
-/* .aboutMe {
-    height: ;
+/* secition.aboutMe {
+    height: 1000px;
 } */
 
 button {
@@ -97,26 +95,43 @@ button:hover {
     transform: scale(1.05);
 }
 
-a button {
-    color: black;
-    text-decoration: none;
-}
-
 section.author {
     width: 800px;
-    height: 500px;
+    height: 750px;
     margin: auto;  
     text-align: center;
 }
 
 .author p {
     text-align: justify;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    width: 800px;
+}
+
+.author img {
+    width: 400px;
 }
 
 img {
     text-align: center;
     margin: 10px;
     /* margin: 10px 30px 30px 50px; */
+}
+
+img.fotosPortfolio {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: #ececec;
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+    transition: 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.171) 0.2em 0.2em 0.6em;
+}
+
+img.fotosPortfolio:hover {
+    transform: scale(1.05);
+    overflow: hidden;
 }
 
 footer {
@@ -226,10 +241,11 @@ section#img03 {
 }
 
 .fotosPortfolio {
-    width: 200px;
+    width: 180px;
 }
 
 #menu {
     position: fixed;
+    z-index: 1;
     width: 100%;
 }

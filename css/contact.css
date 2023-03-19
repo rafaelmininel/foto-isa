@@ -14,15 +14,6 @@ html, body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-main {
-    background-color: #EFEBE5;
-}
-
-/* #menu {
-    position: fixed;
-    width: 100%;
-} */
-
 header {
     width: 100%;
     padding: 30px;
@@ -43,7 +34,7 @@ header a {
 
 main {
     width: 100%;
-    height: 100%;
+    background-color: #EFEBE5;
 }
 
 h2 {
@@ -56,7 +47,13 @@ h2 {
     text-shadow: rgba(0, 0, 0, 0.514) 0.01em 0.06em 0.6em;
 }
 
-section.gallery{
+section.imagem {
+    height: 550px;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+section.contactMe{
     width: 100%;
     text-align: center;
     padding-top: 10px;
@@ -64,59 +61,21 @@ section.gallery{
     /* margin: 10px 100px 50px 150px; */
 }
 
-button {
-    display: inline-block;
-    width: 90px;
-    height: 40px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    background-color: #ececec;
-    cursor: pointer;
-    border-radius: 2px;
-    border: none;
-    transition: 0.3s ease-in-out;
-    box-shadow: rgba(0, 0, 0, 0.171) 0.2em 0.2em 0.6em;
-}
-
-button:hover {
-    transform: scale(1.05);
-}   
-
-img {
-    text-align: center;
-    margin: 10px;
-    /* margin: 10px 30px 30px 50px; */
-}
-
-img.fotosPortfolio {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    background-color: #ececec;
-    cursor: pointer;
-    border-radius: 2px;
-    border: none;
-    transition: 0.3s ease-in-out;
-    box-shadow: rgba(0, 0, 0, 0.171) 0.2em 0.2em 0.6em;
-}
-
-img.fotosPortfolio:hover {
-    transform: scale(1.05);
-    overflow: hidden;
-}
-
-section.imagem {
-    height: 550px;
-    background-size: cover;
-    /* background-attachment: fixed; */
-}
-
-section#img02 {
+/* section#img01 {
     width: 100%;
-    /* height: 400px; */
+    height: 400px;
     background-image: url(../imagens/img02-baixa.jpg);
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.432);
+    background-position: center;
+    background-attachment: fixed;
+    
+} */
+
+section#img01 {
+    width: 100%;
+    background-image: url(../imagens/img01-baixa.jpg);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.432);
     background-position: top center;
-    /* background-attachment: fixed; */
 }
 
 footer {
@@ -135,12 +94,6 @@ footer a {
     font-weight: bold;
 }
 
-#menu {
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-}
-
 .logo {
     display: inline-block;
     font-family: 'Cedarville Cursive', cursive;
@@ -156,7 +109,8 @@ footer a {
     color: rgb(0, 0, 0);
 }
 
-.fotosPortfolio {
-    width: 180px;
+#menu {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
 }
-
